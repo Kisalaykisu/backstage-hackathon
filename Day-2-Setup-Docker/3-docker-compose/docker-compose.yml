@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  backstage:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "7007:7007"
+    environment:
+      NODE_ENV: development
+
+  custom-service:
+    build:
+      context: ./custom-service
+    ports:
+      - "5000:5000"

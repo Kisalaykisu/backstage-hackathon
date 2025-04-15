@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: custom-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: custom-api
+  template:
+    metadata:
+      labels:
+        app: custom-api
+    spec:
+      containers:
+        - name: custom-api
+          image: node:18
+          command: ["node"]
+          args: ["-e", "require('http').createServer((_, res) => res.end('Hello from custom API')).listen(3000)"]
+          ports:
+            - containerPort: 3000
