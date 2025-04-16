@@ -1,0 +1,7 @@
+image:
+  repository: backstage/backstage
+  tag: latest
+
+service:
+  port: 7007
+  nodePort: 30007
