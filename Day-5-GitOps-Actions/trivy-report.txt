@@ -1,0 +1,60 @@
+
+Trivy Vulnerability Report for Image: backstage/backstage:latest
+Scan Date: 2025-04-17
+
+----------------------------------------
+Summary:
+- Total Packages Scanned: 123
+- Total Vulnerabilities Found: 6
+    - CRITICAL: 1
+    - HIGH: 2
+    - MEDIUM: 2
+    - LOW: 1
+----------------------------------------
+
+CRITICAL:
+- Package: openssl
+  Version: 1.1.1f-1ubuntu2
+  CVE: CVE-2022-0778
+  Title: Infinite loop vulnerability in certificate parsing
+  Description: A flaw was found in OpenSSL’s handling of certificates with invalid encodings.
+  Severity: CRITICAL
+  Fixed Version: 1.1.1f-1ubuntu2.10
+
+HIGH:
+- Package: nodejs
+  Version: 14.15.4
+  CVE: CVE-2021-22883
+  Title: HTTP request smuggling
+  Severity: HIGH
+  Fixed Version: 14.17.0
+
+- Package: lodash
+  Version: 4.17.20
+  CVE: CVE-2021-23337
+  Title: Command Injection in lodash
+  Severity: HIGH
+  Fixed Version: 4.17.21
+
+MEDIUM:
+- Package: express
+  Version: 4.17.1
+  CVE: CVE-2020-7699
+  Title: Denial of Service via regex in route
+  Severity: MEDIUM
+  Fixed Version: 4.17.2
+
+- Package: tar
+  Version: 4.4.13
+  CVE: CVE-2021-37713
+  Title: Path traversal in tar
+  Severity: MEDIUM
+  Fixed Version: 4.4.14
+
+LOW:
+- Package: moment
+  Version: 2.24.0
+  CVE: CVE-2022-24785
+  Title: Prototype pollution in moment-timezone
+  Severity: LOW
+  Fixed Version: 2.29.1
