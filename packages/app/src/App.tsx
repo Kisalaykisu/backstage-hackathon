@@ -1,3 +1,5 @@
+import { prometheusPlugin, PrometheusPage } from '@backstage/plugin-prometheus';
+import { Route, FlatRoutes } from '@backstage/core-app-api';
 import React from 'react';
 import { Navigate, Route } from 'react-router-dom';
 import { apiDocsPlugin, ApiExplorerPage } from '@backstage/plugin-api-docs';
@@ -63,6 +65,7 @@ const app = createApp({
 
 const routes = (
   <FlatRoutes>
+    <Route path="/prometheus" element={<PrometheusPage />} />
     <Route path="/" element={<Navigate to="catalog" />} />
     <Route path="/catalog" element={<CatalogIndexPage />} />
     <Route
