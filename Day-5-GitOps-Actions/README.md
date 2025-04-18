@@ -1,5 +1,3 @@
-
-```markdown
 # 🔄 Day 5 - GitOps Actions + Security Scan with Trivy
 
 Day 5 focused on **automating deployments** and **securing our images** — combining the power of **GitHub Actions**, **ArgoCD**, and **Trivy** to enforce a GitOps workflow with security baked in.

@@ -1,5 +1,3 @@
-
-```markdown
 # ✨ Day 6 - UI Polish + Metrics Monitoring (Prometheus + Grafana)
 
 On Day 6, the focus shifted to improving the **developer experience** by enhancing the **Backstage UI**, adding plugins, and integrating **observability** using **Prometheus and Grafana**.
@@ -7,7 +5,6 @@ On Day 6, the focus shifted to improving the **developer experience** by enhanci
 ---
 
 ## 📁 Folder Structure
-
 ```
 Day-6-UI-Polish-Metrics/
 ├── 📂Prometheus/
@@ -84,5 +81,3 @@ Day-6-UI-Polish-Metrics/
 Get ready for the show! 🎬
 
 ---
-
- 
