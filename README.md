@@ -1,3 +1,5 @@
+![Screenshot_527](https://github.com/user-attachments/assets/1f62ae88-faa9-4be3-98c6-692414236889)
+
 # [Backstage](https://backstage.io)
 
 This is your newly scaffolded Backstage App, Good Luck!
