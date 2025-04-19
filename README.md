@@ -1,13 +1,3 @@
-# [Backstage](https://backstage.io)
-
-This is your newly scaffolded Backstage App, Good Luck!
-
-To start the app, run:
-
-```sh
-yarn install
-yarn dev
-```
 🚀 TWS DevOps Hackathon 2025 – Final Submission
 
 Welcome to my 7-day journey through the TWS DevOps Hackathon 2025 where I explored the full lifecycle of a Backstage-based platform, DevOps best practices, and production-grade observability tools like Prometheus, Grafana, ArgoCD, GitHub Actions, and more.
