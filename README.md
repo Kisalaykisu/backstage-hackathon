@@ -159,3 +159,6 @@ Crafted with heart and hustle by **Kisalay Srivastava**
 
 ### ✨ Quote to Remember  
 **“Don’t just deploy. Observe. Secure. Automate. That’s DevOps.”**
+
+![image](https://github.com/user-attachments/assets/d3d62513-8983-4ed5-92a0-46adfb261385)
+
