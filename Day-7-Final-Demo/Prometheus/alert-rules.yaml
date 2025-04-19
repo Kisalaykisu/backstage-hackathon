@@ -1,0 +1,11 @@
+groups:
+  - name: alert.rules
+    rules:
+      - alert: HighCPUUsage
+        expr: process_cpu_seconds_total > 0.5
+        for: 30s
+        labels:
+          severity: critical
+        annotations:
+          summary: "High CPU usage detected on {{ $labels.instance }}"
+          description: "{{ $labels.instance }} is using high CPU"

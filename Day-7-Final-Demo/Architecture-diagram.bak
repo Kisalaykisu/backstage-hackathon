@@ -1,0 +1,52 @@
+backstage-hackathon/
+├── Day-1-Kickoff/
+│   ├── README.md          ← Project idea, toolstack, objective
+│   └── screenshots/       ← Logo, ArgoCD blank, VS Code setup
+│
+├── Day-2-Setup-Docker/
+│   ├── Dockerfile         ← For Backstage
+│   ├── custom-service/    ← Node.js microservice folder
+│   ├── docker-compose.yml ← (if using)
+│   └── screenshots/
+│
+├── Day-3-K8s-ArgoCD/
+│   ├── k8s/
+│   │   ├── backstage-deployment.yaml
+│   │   ├── custom-api-deployment.yaml
+│   │   └── service.yaml
+│   ├── app.yaml           ← ArgoCD Application definition
+│   └── screenshots/       ← ArgoCD sync, pod running
+│
+├── Day-4-DB-Integration/
+│   ├── postgres-deployment.yaml
+│   ├── node-api-db-connect.js
+│   └── screenshots/       ← DB pod, pgadmin, API connect test
+│
+├── Day-5-GitOps-Actions/
+│   ├── .github/
+│   │   └── workflows/
+│   │       └── deploy.yml
+│   ├── trivy-report.txt   ← (if image scan used)
+│   └── screenshots/
+│
+├── Day-6-UI-Polish-Metrics/
+│   ├── plugin-screenshot.png
+│   ├── Prometheus/
+│   │   └── prometheus-values.yaml
+│   └── screenshots/       ← Grafana dashboard, Backstage UI
+│
+├── Day-7-Final-Demo/
+│   ├── architecture-diagram.png
+│   ├── README-FINAL.md    ← Cleaned up readme
+│   └── video-demo.mp4     ← Optional demo recording
+│
+└── common-assets/
+    ├── logo.png
+    ├── team-members.txt
+    └── linkedin-posts/
+        ├── day1.txt
+        ├── day2.txt
+        └── day7-final.txt
+
+yeh follow karna that bhul toh nahi gya that naa galt toh nahi bol rha hu
+
