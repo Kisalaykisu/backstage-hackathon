@@ -119,7 +119,11 @@ backstage-hackathon/
     ├── team-members.txt
     └── linkedin-posts/
         ├── day1.txt
-        ├── day2.txt
+        ├── day2.txt 
+        ├── day3.txt
+        ├── day4.txt
+        ├── day5.txt
+        ├── day6.txt
         └── day7-final.txt
 
 
